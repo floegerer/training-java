@@ -1,0 +1,27 @@
+
+// Create a jar file
+
+cd Project/classes
+jar -cvmf manifest.txt packEx.jar com
+
+
+// Extract content from jar
+
+jar -xf packEx.jar
+
+
+// List the contents of jar
+
+jar -tf blah.jar
+
+
+// Compile a java program
+
+cd Project/source
+javac -d ../classes com/headfirstjava/*.java
+
+
+// Run java code
+
+cd Project/classes
+java com.headfirstjava.PackageExercise

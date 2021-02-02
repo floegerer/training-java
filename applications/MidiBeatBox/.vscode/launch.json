@@ -9,6 +9,13 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BeatBox<MidiBeatBox_d279b74c>",
+            "request": "launch",
+            "mainClass": "BeatBox",
+            "projectName": "MidiBeatBox_d279b74c"
         }
     ]
 }
