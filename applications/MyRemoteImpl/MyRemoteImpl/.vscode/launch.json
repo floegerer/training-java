@@ -4,27 +4,32 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
+
         {
             "type": "java",
             "name": "Launch MyRemoteClient",
             "request": "launch",
-            "mainClass": "MyRemoteClient",
-            "projectName": "MyRemoteImpl_841d7487",
-            "vmArgs": "-Djava.rmi.server.hostname=127.0.0.1"
+            "mainClass": "fme.MyRemoteClient",
+            "classPaths": [
+                "build/classes/java/main"
+            ],
+            "vmArgs": ""
         },
         {
             "type": "java",
             "name": "Launch MyRemoteImpl",
             "request": "launch",
-            "mainClass": "MyRemoteImpl",
-            "projectName": "MyRemoteImpl_841d7487", 
-            "vmArgs": "-Djava.rmi.server.hostname=127.0.0.1", 
+            "mainClass": "fme.MyRemoteImpl",
+            "classPaths": [
+                "build/classes/java/main"
+            ],
+            "vmArgs": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }

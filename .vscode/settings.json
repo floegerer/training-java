@@ -1,4 +1,6 @@
 {
     //"java.format.settings.url": "eclipse-formatter.xml",
-    "java.debug.settings.onBuildFailureProceed":true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "maven.view": "flat",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

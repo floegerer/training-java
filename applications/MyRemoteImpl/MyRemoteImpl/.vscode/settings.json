@@ -2,4 +2,5 @@
     "java.debug.settings.forceBuildBeforeLaunch": true,
     "java.debug.settings.onBuildFailureProceed": true,
     "java.dependency.packagePresentation": "flat",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

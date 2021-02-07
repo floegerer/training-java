@@ -1,3 +1,4 @@
+package fme;
 import java.rmi.*;
 
 public interface MyRemote extends Remote {

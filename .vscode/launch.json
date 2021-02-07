@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MyRemoteImpl",
+            "request": "launch",
+            "mainClass": "MyRemoteImpl",
+            "projectName": "training_6e98970b"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

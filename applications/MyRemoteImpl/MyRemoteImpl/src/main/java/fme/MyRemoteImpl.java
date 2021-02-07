@@ -1,3 +1,5 @@
+package fme;
+
 import java.rmi.*;
 import java.rmi.server.*;
 
@@ -15,7 +17,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote  {
         try {
 
             MyRemote service = new MyRemoteImpl();
-            Naming.rebind("//127.0.0.1:45000/test", service);
+            Naming.rebind("//localhost:45000/RemoteHello", service);
 
         } catch (Exception e) { e.printStackTrace(); }
 
