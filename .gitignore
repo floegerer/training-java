@@ -36,3 +36,11 @@ applications/MyRemoteImpl/MyRemoteImpl/bin/main/fme/MyRemoteImpl.class
 applications/MyRemoteImpl/MyRemoteImpl/bin/src/main/java/fme/MyRemote.class
 applications/MyRemoteImpl/MyRemoteImpl/bin/src/main/java/fme/MyRemoteClient.class
 applications/MyRemoteImpl/MyRemoteImpl/bin/src/main/java/fme/MyRemoteImpl.class
+applications/ServiceBrowser/build/classes/java/main/io/solidx/MyRemote.class
+applications/ServiceBrowser/build/classes/java/main/io/solidx/MyRemoteClient.class
+applications/ServiceBrowser/build/classes/java/main/io/solidx/MyRemoteImpl.class
+applications/ServiceBrowser/build/libs/ServiceBrowser.jar
+applications/ServiceBrowser/build/tmp/jar/MANIFEST.MF
+applications/ServiceBrowser/bin/main/io/solidx/MyRemote.class
+applications/ServiceBrowser/bin/main/io/solidx/MyRemoteClient.class
+applications/ServiceBrowser/bin/main/io/solidx/MyRemoteImpl.class
