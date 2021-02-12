@@ -1,0 +1,27 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+    id 'eclipse'
+}
+// sourceCompatibility = JavaVersion.VERSION_15
+// targetCompatibility = JavaVersion.VERSION_15
+
+// repositories {
+//      jcenter()
+// }
+// compileJava {
+//     options.compilerArgs += ["--enable-preview"]
+// }
+// compileTestJava {
+//     options.compilerArgs += ["--enable-preview"]
+// }
+// //Buildship doesn't use that hooks (https://discuss.gradle.org/t/when-does-buildship-eclipse-customization-run/20781/2)
+// //you need to run `gradle eclipse` separately
+// eclipse.jdt.file.withProperties { props ->
+//     props['org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures']= 'enabled'
+//     props['org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures']= 'ignore'
+// }
+
+// test {
+//     jvmArgs '--enable-preview'
+// }
