@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MyRemoteImpl</name>
-	<comment></comment>
+	<name>ServiceBrowser</name>
+	<comment>Project ServiceBrowser created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -17,12 +17,12 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1</id>
+			<id>1613475706747</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

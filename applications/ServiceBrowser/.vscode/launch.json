@@ -4,12 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
 
         {
             "type": "java",
-            "name": "Launch MyRemoteClient",
+            "name": "Launch ServiceServer",
             "request": "launch",
-            "mainClass": "io.solidx.MyRemoteClient",
+            "mainClass": "io.solidx.ServiceServer",
             "classPaths": [
                 "build/classes/java/main"
             ],
@@ -17,9 +18,9 @@
         },
         {
             "type": "java",
-            "name": "Launch MyRemoteImpl",
+            "name": "Launch ServiceServerImpl",
             "request": "launch",
-            "mainClass": "io.solidx.MyRemoteImpl",
+            "mainClass": "io.solidx.ServiceServerImpl",
             "classPaths": [
                 "build/classes/java/main"
             ],
