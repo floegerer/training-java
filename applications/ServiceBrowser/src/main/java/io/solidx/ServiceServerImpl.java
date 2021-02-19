@@ -5,11 +5,7 @@ import java.util.*;
 import java.rmi.server.*;
 
 public class ServiceServerImpl extends UnicastRemoteObject implements ServiceServer {
-
-    public static void main(String[] args) throws RemoteException {
-        ServiceServerImpl MyService = new ServiceServerImpl();
-    }
-
+    
     HashMap serviceList;
 
     public ServiceServerImpl() throws RemoteException  {
@@ -18,24 +14,32 @@ public class ServiceServerImpl extends UnicastRemoteObject implements ServiceSer
 
     private void setUpServices() {
         serviceList = new HashMap();
-        // serviceList.put("Dice Rolling Service", new DiceService());
+        serviceList.put("Dice Rolling Service", new DiceService());
         // serviceList.put("Day of the week service", new DayOfTheWeekService());
         // serviceList.put("Visual music service", new MiniMusicService());
     }
 
-    @Override
-    public Object [] getServiceList() throws RemoteException {
+    public Object [] getServiceList() {
 
-        // TODO Auto-generated method stub
-        return null;
+        System.out.println("in remote");
+        return serviceList.keySet().toArray();
 
     }
 
-    @Override
     public Service getService(Object serviceKey) throws RemoteException {
 
-        // TODO Auto-generated method stub
-        return null;
+        Service theService = (Service) serviceList.get(serviceKey);
+        return theService;
 
+    }
+
+    public static void main(String[] args) {
+        
+        try {
+            Naming.rebind("//localhost:45000/ServiceServer", new ServiceServerImpl());
+        } catch (Exception e) { e.printStackTrace(); }
+
+        System.out.println("Remote service is running...");  
+        
     }
 }

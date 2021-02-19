@@ -8,9 +8,9 @@
 
         {
             "type": "java",
-            "name": "Launch ServiceServer",
+            "name": "Launch ServiceBrowser",
             "request": "launch",
-            "mainClass": "io.solidx.ServiceServer",
+            "mainClass": "io.solidx.ServiceBrowser",
             "classPaths": [
                 "build/classes/java/main"
             ],
