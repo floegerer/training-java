@@ -1,6 +1,6 @@
 applications/WeedApp/WeedApp.java
-**/build/
-**/bin/
-**/.gradle/6.4/executionHistory/
-**/.gradle/6.4/fileHashes/
-**/.gradle/6.4/javaCompile/
+**/build/**
+**/bin/**
+**/.gradle/6.4/executionHistory/**
+**/.gradle/6.4/fileHashes/**
+**/.gradle/6.4/javaCompile/**
