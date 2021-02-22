@@ -2,3 +2,4 @@ applications/WeedApp/WeedApp.java
 **/build/**
 **/bin/**
 **/.gradle/**
+*.lock
