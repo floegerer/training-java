@@ -1,0 +1,67 @@
+{
+    "tasks": [
+        
+        {
+            "label": "Start RMI",
+            "type": "shell",
+            "command": "rmiregistry 45000",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/build/classes/java/main"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+
+        {
+            "label": "Start Browser",
+            "type": "shell",
+            "command": "java io.solidx.ServiceBrowser",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/build/classes/java/main"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        
+        {
+            "label": "Start Server",
+            "type": "shell",
+            "command": "java io.solidx.ServiceServerImpl",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/build/classes/java/main"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        }
+
+        // {
+        //     "label": "Start Application",
+        //     "type": "shell",
+        //     "command": "",
+        //     "dependsOrder": "sequence", 
+        //     "dependsOn": ["Start RMI", "Start Server", "Start Browser"]
+        //   }
+
+    ]
+}

@@ -5,7 +5,6 @@
     "version": "0.2.0",
     "configurations": [
     
-
         {
             "type": "java",
             "name": "Launch ServiceBrowser",
@@ -16,6 +15,7 @@
             ],
             "vmArgs": ""
         },
+
         {
             "type": "java",
             "name": "Launch ServiceServerImpl",
@@ -26,11 +26,13 @@
             ],
             "vmArgs": ""
         },
+        
         {
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         }
+        
     ]
 }
